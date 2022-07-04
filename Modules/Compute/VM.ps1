@@ -221,11 +221,9 @@ else
                 $Exc.Add('Public IP')
                 $Exc.Add('VM Extensions')
                 $Exc.Add('Resource U')
-                if($InTag)
-                {
-                    $Exc.Add('Tag Name')
-                    $Exc.Add('Tag Value') 
-                }
+                $Exc.Add('Tag Name')
+                $Exc.Add('Tag Value') 
+                
     
                 $ExcelVar = $SmaResources.VM
                             
